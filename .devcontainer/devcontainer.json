@@ -1,0 +1,9 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/rust:1": {},
+    "ghcr.io/eitsupi/devcontainer-features/jq-likes:2": {},
+    "ghcr.io/devcontainers-community/features/deno:1": {}
+  },
+  "postCreateCommand": "git clone https://github.com/Start9Labs/start-os.git && cd start-os && git submodule update --init --recursive && make sdk && start-sdk init && start-sdk --version",
+}
