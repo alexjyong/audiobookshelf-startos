@@ -93,16 +93,16 @@ interfaces:
     # A human readable name for display in the UI
     name: User Interface
     # A descriptive description of what the interface does
-    description: A simple user interface that is expected to display the text "Hello Word"
+    description: Audiobook Shelf Main UI
     tor-config:
     # Port mappings are from the external port to the internal container port
       port-mapping:
-        80: "80"
+        80: "13378"
     # Port mappings are from the external port to the internal container port
     lan-config:
       443:
         ssl: true
-        internal: 80
+        internal: 13378
     # Denotes if the service has a user interface to display
     ui: true
     # Denotes the protocol specifications used by this interface
