@@ -1,5 +1,9 @@
-# Instructions for Hello World
+# Audiobookshelf Instructions
 
-Instructions go here. These appear to the user in the UI on the Service page under **Instructions**.
+Audiobookshelf has no configuration options in StartOS.
 
-You are allowed to include basic [Markdown formatting](https://www.markdownguide.org/basic-syntax).
+When opening the user interface for the first time, you'll have to create the admin/root user. 
+    
+    Make sure to store this username and password somewhere safe, there is currently no reset password option.
+
+Visit the [Audiobookshelf documentation](https://www.audiobookshelf.org/docs/) for a list of features and further instructions.
