@@ -64,7 +64,11 @@ main:
   # Specifies where to mount the data volume(s), if there are any. Mounts for pointer dependency volumes are also denoted here. These are necessary if data needs to be read from / written to these volumes. 
   mounts:
     # Specifies where on the service's file system its persistence directory should be mounted prior to service startup
-    main: /root
+    main: /client #this probs needs to change
+    config: /config
+    metadata: /metadata
+    audiobooks: /audiobooks
+    podcasts: /podcasts
 # Specifies whether GPU acceleration is enabled or not. False by default.
   gpu-acceleration: false
 # Defines what architectures will be supported by the service. This service supports x86_64 and aarch64 architectures.
@@ -85,6 +89,14 @@ properties: ~
 volumes:
   # This is the image where files from the project asset directory will go
   main:
+    type: data
+  config:
+    type: data
+  metadata:
+    type: data
+  audiobooks:
+    type: data
+  podcasts:
     type: data
 # This specifies how to configure the port mapping for exposing the service over TOR and LAN (if applicable). Many interfaces can be specified depending on the needs of the service. If it can be launched over a Local Area Network connection, specify a `lan-config`. Otherwise, at minimum, a `tor-config` must be specified.
 interfaces:
