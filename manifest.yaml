@@ -73,11 +73,16 @@ hardware-requirements:
     - x86_64
     - aarch64
 # This is where health checks would be defined - see a more advanced example in https://github.com/Start9Labs/start9-pages-startos
-health-checks:
-  web-ui:
+health-checks: 
+  main:
     name: Web Interface
-    success-message: The Hello World is accessible
-    type: script
+    success-message: The Audiobookshelf UI is ready to visit in a web browser
+    type: docker
+    image: main
+    entrypoint: healthcheck.sh
+    args: []
+    io-format: json
+    inject: true
 config: ~
 properties: ~
 #  type: script
