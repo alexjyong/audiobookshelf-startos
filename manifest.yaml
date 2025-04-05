@@ -16,7 +16,7 @@ wrapper-repo: "https://github.com/alexjyong/audiobookshelf-startos"
 # The original project repository URL. There is no upstream repo in this example
 upstream-repo: "https://github.com/advplyr/audiobookshelf"
 # URL to the support site / channel for the project. This key can be omitted if none exists, or it can link to the original project repository issues.
-support-site: "https://docs.start9.com/"
+support-site: "https://www.audiobookshelf.org/support"
 # URL to the marketing site for the project. This key can be omitted if none exists, or it can link to the original project repository. 
 marketing-site: "https://www.audiobookshelf.org/"
 # The series of commands to build the project into an s9pk for arm64/v8. In this case we are using a Makefile with the simple build command "make".
@@ -24,10 +24,10 @@ build: ["make"]
 # Human readable descriptors for the service. These are used throughout the StartOS user interface, primarily in the marketplace.
 description:
   # This is the first description visible to the user in the marketplace.
-  short: Example service
+  short: Audiobookshelf is a self-hosted audiobook and podcast server.
   # This description will display with additional details in the service's individual marketplace page
   long: |
-    Hello World is a bare-bones service that launches a web interface to say "Hello World", and nothing more.
+    Audiobookshelf is an open-source self-hosted media server for your audiobooks and podcasts.
 # These assets are static files necessary for packaging the service for Start9 (into an s9pk). Each value is a path to the specified asset. If an asset is missing from this list, or otherwise denoted, it will be defaulted to the values denoted below. 
 assets:
   # Default = LICENSE.md
