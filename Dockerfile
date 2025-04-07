@@ -1,6 +1,6 @@
 FROM advplyr/audiobookshelf:2.20.0
 
-RUN apt-get update && apt-get install wget curl sudo bash tini -y \
+RUN apk update && apk add --no-cache --update  wget sudo bash \
         && wget https://github.com/mikefarah/yq/releases/download/v4.25.1/yq_linux_arm.tar.gz -O - |\
         tar xz && mv yq_linux_arm /usr/bin/yq
 
