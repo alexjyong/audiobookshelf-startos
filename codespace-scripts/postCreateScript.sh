@@ -8,7 +8,7 @@ docker run --privileged --rm linuxkit/binfmt:v0.8
 # git submodule update --init --recursive 
 # make sdk 
 wget https://github.com/alexjyong/audiobookshelf-startos/releases/download/start-cli-scripts/start-sdk-utilities.tar
-tar -xf https://github.com/alexjyong/audiobookshelf-startos/releases/download/start-cli-scripts/start-sdk-utilities.tar
+tar -xf start-sdk-utilities.tar
 cd start-sdk-utilities
 mv start-* /usr/local/cargo/bin/
 
