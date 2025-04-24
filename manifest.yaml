@@ -62,11 +62,11 @@ interfaces:
     description: Audiobookshelf Main UI
     tor-config:
       port-mapping:
-        80: "13378"
+        80: "80"
     lan-config:
       443:
         ssl: true
-        internal: 13378
+        internal: 80
     ui: true
     protocols:
       - tcp
