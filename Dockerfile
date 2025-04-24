@@ -5,7 +5,7 @@ RUN apk update && apk add --no-cache --update  wget sudo bash \
         tar xz && mv yq_linux_arm /usr/bin/yq
 
 ENV APP_HOST audiobookshelf.embassy
-ENV APP_PORT 13378
+ENV APP_PORT 80
 ENV TOR_PROXY_IP embassy
 ENV TOR_PROXY_PORT 9050
 
