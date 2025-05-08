@@ -4,7 +4,7 @@
 
 # Audiobookshelf for StartOS
 
-[https://github.com/advplyr/audiobookshelf](Audiobookshelf) is a self-hosted audiobook and podcast server. This repository creates the `s9pk` package that is installed to run `audiobookshelf` on [StartOS](https://github.com/Start9Labs/start-os/). Learn more about service packaging in the [Developer Docs](https://start9.com/latest/developer-docs/).
+[Audiobookshelf](https://github.com/advplyr/audiobookshelf) is a self-hosted audiobook and podcast server. This repository creates the `s9pk` package that is installed to run `audiobookshelf` on [StartOS](https://github.com/Start9Labs/start-os/). Learn more about service packaging in the [Developer Docs](https://start9.com/latest/developer-docs/).
 
 ## Dependencies
 
