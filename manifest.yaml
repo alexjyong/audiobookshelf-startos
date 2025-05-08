@@ -1,8 +1,8 @@
 id: audiobookshelf
 title: "audiobookshelf"
-version: 2.20.0
+version: 2.21.0
 release-notes: |
-  Initial Release for StartOS. See application release notes here: https://github.com/advplyr/audiobookshelf/releases/tag/v2.20.0
+  Initial Release for StartOS. See application release notes here: https://github.com/advplyr/audiobookshelf/releases/tag/v2.21.0
 license: GPL-2.0
 wrapper-repo: "https://github.com/alexjyong/audiobookshelf-startos"
 upstream-repo: "https://github.com/advplyr/audiobookshelf"

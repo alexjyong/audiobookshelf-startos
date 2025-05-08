@@ -21,6 +21,9 @@ Install the system dependencies below to build this project by following the ins
 
 ## Build environment
 Prepare your StartOS build environment. In this example we are using Ubuntu 20.04.
+
+(If you are doing this on Github Codespaces, you can skip these steps.)
+
 1. Install docker
 ```
 curl -fsSL https://get.docker.com | bash

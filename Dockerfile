@@ -1,4 +1,4 @@
-FROM advplyr/audiobookshelf:2.20.0
+FROM advplyr/audiobookshelf:2.21.0
 
 RUN apk update && apk add --no-cache --update  wget sudo bash \
         && wget https://github.com/mikefarah/yq/releases/download/v4.25.1/yq_linux_arm.tar.gz -O - |\
